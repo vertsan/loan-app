@@ -1,16 +1,75 @@
-# sbkuapp
+# Loan Amortization App
 
-A new Flutter project.
+A Flutter application for calculating loan amortization schedules with support for Khmer language (ខ្មែរ) UI. The app provides detailed payment breakdowns and allows users to export schedules as PDF or Excel files.
+
+## Features
+
+- **Loan Amortization Calculation**: Calculate monthly payments and generate complete amortization schedules
+- **Detailed Breakdown**: View payment dates, principal, interest, and remaining balance for each period
+- **Export Options**: Export amortization schedules as PDF documents or Excel spreadsheets
+- **Khmer Localization**: Full Khmer (ខ្មែរ) language support
+- **Cross-Platform**: Runs on Android, iOS, Web, Windows, Linux, and macOS
+
+## Requirements
+
+- **Flutter**: SDK installed (latest stable recommended)
+- **Dart**: ^3.9.2
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Installation
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kravorkid/loan-app.git
+   cd loan-app
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. Run the app:
+   ```bash
+   flutter run
+   ```
+
+### Testing
+
+Run unit and widget tests:
+```bash
+flutter test
+```
+
+### Code Analysis
+
+Run static analysis:
+```bash
+flutter analyze
+```
+
+## Project Structure
+
+```text
+lib/
+├── config/          # App configuration (themes, routes, etc.)
+├── core/            # Core utilities, constants, and helpers
+├── data/            # Data models, repositories, and services
+├── features/        # Feature-based modules
+│   ├── amortization/ # Amortization calculation and display
+│   ├── export/      # PDF and Excel export functionality
+│   └── input/       # Loan input form
+├── l10n/            # Localization files (English and Khmer)
+├── shared/          # Shared widgets, utilities, and extensions
+└── main.dart        # App entry point
+```
+
+## Platforms
+
+- Android
+- iOS
+- Web
+- Windows
+- Linux
+- macOS
