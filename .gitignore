@@ -36,3 +36,8 @@ app.*.symbols
 
 # Obfuscation related
 app.*.map.json
+*generated*
+**/generated_*
+**/generated_plugin_registrant.*
+**/GeneratedPluginRegistrant.*
+**/generated_plugins.cmake
