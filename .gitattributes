@@ -1,0 +1,16 @@
+# Linguist overrides to reflect Dart as primary language
+# Platform boilerplate is vendored/generated
+
+# C/C++/CMake (Windows, Linux native runners)
+windows/** linguist-vendored
+linux/** linguist-vendored
+
+# iOS/macOS native
+ios/** linguist-vendored
+macos/** linguist-vendored
+
+# Android native
+android/** linguist-vendored
+
+# Web template
+web/** linguist-vendored
